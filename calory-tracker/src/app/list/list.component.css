@@ -1,0 +1,90 @@
+.search-box {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.search-box>* {
+  width: 100%;
+  display: block;
+}
+
+.search-box label {
+  margin-bottom: 5px;
+}
+
+.food-name {
+  padding-top: 0px;
+}
+
+.food-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.single-food {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  height: 120px;
+  background-color: whitesmoke;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.single-food h3 {
+  font-size: 1em;
+}
+
+.single-food .food-calories {
+  font-size: 0.9em;
+  color: orangered;
+}
+
+.single-food img {
+  width: 25%;
+  height: 120px;
+  float: left;
+  border-radius: 50%;
+}
+
+.new-food {
+  overflow: auto;
+}
+
+.new-food-button {
+  float: left;
+  width: 30%;
+  display: block;
+  background-color: orangered;
+  border: none;
+  color: white;
+}
+
+.add-button {
+  float: left;
+  width: 20%;
+  display: block;
+  background-color: orangered;
+  border: none;
+  color: white;
+}
+
+.add-button-list {
+  background-color: orangered;
+  border: none;
+  margin-left: 10px;
+  color: white;
+}
+
+.my-food-list {
+  float: right;
+  width: 45%;
+}
+
+.foods {
+  width: 45%;
+  display: inline-block;
+}
